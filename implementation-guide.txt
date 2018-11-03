@@ -1,0 +1,28 @@
+Launch a public instance with Amazon Linux AMI
+
+SSH and run the below commands to install docker
+
+sudo yum update -y
+sudo yum install -y docker
+sudo service docker start
+sudo chkconfig docker on
+sudo usermod -a -G docker ec2-user
+pwd
+
+Close the SSH session and again SSH into the EC2 
+
+DO NOT SUDO SU
+
+Run the command 
+
+docker info
+
+If successful, then dockers has been successfully installed and all required privileges are assigned to ec2-user for running dockers command
+
+Run the container with php-watermark-gallery docker image hosted on Docker Hub
+
+
+
+
+
+
