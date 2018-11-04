@@ -21,6 +21,9 @@ If successful, then dockers has been successfully installed and all required pri
 
 Run the container with php-watermark-gallery docker image hosted on Docker Hub
 
+docker run -d -p 80:80 php-watermark-gallery
+
+
 
 
 
